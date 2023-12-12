@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Demo6</string>
+    <string name="id">id自动递增无需填写</string>
+    <string name="name">姓名</string>
+    <string name="phone">号码</string>
+    <string name="add">增加</string>
+    <string name="delete">删除</string>
+    <string name="update">修改</string>
+    <string name="query">查询</string>
+    <string name="addContent">插入通讯录数据</string>
+    <string name="queryAll">查看所有数据</string>
+    <string name="toOne">访问通讯录</string>
+    <string name="toTwo">数据库</string>
+    <string name="hint">读取到的联系人姓名 号码：</string>
+</resources>

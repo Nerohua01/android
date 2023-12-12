@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context="com.example.demo2.MainActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="请输入信息"
+        android:textSize="28sp"/>
+    <TableRow>
+        <TextView android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="姓名："
+            android:textSize="20sp"/>
+        <EditText android:id="@+id/name"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textSize="20sp"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="性别"
+            android:textSize="20sp"/>
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/male"
+                android:text="男"
+                android:textSize="20sp"/>
+            <!--                android:checked="true"-->
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/female"
+                android:text="女"
+                android:textSize="20sp"/>
+        </RadioGroup>
+    </TableRow>
+
+    <TableRow>
+        <TextView android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="学号："
+            android:textSize="20sp"/>
+        <EditText android:id="@+id/number"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textSize="20sp"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="邮箱："
+            android:textSize="20sp"/>
+
+
+        <EditText android:id="@+id/email"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textSize="20sp"/>
+    </TableRow>
+    <Button
+        android:id="@+id/register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="注册"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/textviewlast"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text=""
+        android:textSize="20sp"
+        android:gravity="center"
+        >
+
+    </TextView>
+</TableLayout>
